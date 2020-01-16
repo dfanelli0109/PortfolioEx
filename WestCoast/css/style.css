@@ -1,0 +1,382 @@
+header {
+  height: auto;
+  background-color: white;
+  border-bottom: 3px black solid;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: auto;
+  background-color: #909090;
+}
+
+img {
+  width: 30vw;
+  height: 100%;
+}
+
+#michele {
+  height: 50%;
+  width: auto;
+  margin: 15px;
+  border: solid 2px black;
+  padding: 0px;
+}
+#comp1
+{
+  color:black;
+
+  font-size: 4vw;
+margin: 0px;
+height: 33.34%;
+padding: 15% 3%;
+text-align: center;}
+
+#comp2
+{
+  color: black;
+  font-size: 5vw;
+margin: 0px;
+height:66.66%;
+padding:8% 3%;
+text-align: center;
+}
+
+#comp3
+{
+  color: black;
+  background-color: white;
+  font-size: 3vw;
+margin: 0px;
+padding: 18%;
+height: 100%;
+text-align: center;
+}
+
+
+#comp4
+{
+  color: #101010;
+  background-color: white;
+  font-size: 5vw;
+margin: 0px;
+padding: 5%;
+height: 100%;
+text-align: center;
+}
+
+h4 {
+  padding: 15px 0px;
+  font-weight: bold;
+}
+marquee {
+  font-family: 'Lalezar', cursive;
+  width: 90%;
+  padding: 0px 25px;
+  border-radius: 30px;
+  border: 4px groove blue;
+  margin: 10px 5%;;
+  font-size: 1.5em;
+}
+
+.full {
+
+  height: 74vh;
+
+}
+#comp1 {
+background-color: white;
+  opacity: 1;
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire*/
+}
+
+.nav-link:hover {
+  width:100%;
+}
+.li {
+  width: auto;
+background-color: transparent;
+
+}
+.li:hover {border-bottom: 3px solid white;
+
+
+}
+
+.nav-link {
+  width: auto;
+}
+
+.navbar-tel {
+  color: yellowgreen;
+}
+
+
+#collapsibleNavbar{
+height: auto;
+
+background-color: green;
+}
+
+.black {
+  background-color: white;
+}
+
+.black li {
+  background-color: white;
+}
+
+.navbar-dark .navbar-toggler-icon #white{
+  background-color: white;
+}
+
+#menuind li {
+  background-color: black;
+}
+
+#navcust {
+  -ms-flex-flow: row wrap;
+flex-flow: row wrap;
+}
+
+.dropdown-menu, .dropdown-item {
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: lightblue;
+}
+
+#ashley {
+  height: 300px;
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+  #collapsibleNavbar{
+width: 100vw;
+background-color: white;
+color: black;
+}
+
+
+}
+
+@media all and (max-width: 767px) {
+#ashley {
+  width: 60%;
+  height: 350px;
+  margin: 0px 20%;
+}
+
+#color1 {
+  background-color: #05077a;
+}
+
+  .full {
+
+    height: 40vh;
+    background-color: #909090;
+  }
+  #about {
+  height: auto;
+  }
+  .dropdown-menu, .dropdown-item {
+margin: 0px;
+padding: 0px;
+  }
+#navcust {
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+tbody{
+ text-align: left;
+}
+
+  img {
+    width: 90vw;
+    height: 125px;
+    padding: 20px;
+}
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+.li {
+  color: white;
+}
+
+.li:hover {
+  color: white;
+}
+
+#michele {
+  height: 300px;
+  width: 60vw;
+}
+
+
+
+.hover:hover {
+  background-color: lightgreen;
+
+  }
+
+  #webceptional {
+    font-size: 6.5vw;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  #brand {
+    width: 80vw;
+    float: left;
+  }
+  #toggle1 {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: auto;
+    background-color: black;
+
+  }
+}
+
+.center
+{text-align: center;
+background-color: navy;
+width:100%;}
+
+.navbar-expand-md .navbar-nav {
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    width: 100%;
+}
+
+.page {
+width: 100vw;
+height: 100vh;
+
+}
+
+table {
+  margin: 25px 0px;
+}
+
+#faq {
+  background-color: white;
+}
+
+#contact{background-color: lightgrey;}
+
+#about {padding: 25px; background-color: white;}
+#prices {background-color: orange;}
+#services{background-color: yellow;}
+* {
+  box-sizing: border-box;
+}
+#copy{
+padding: 25px;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 30px;
+    border-radius: 30px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: white;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+
+  background-color: black;
+}
+footer div {
+  font-size: 1em;
+  color: white;
+  padding: 0px 20px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+
+.col-md-8 {
+  padding: 45px 20px;
+}
+
+.col-md-4{
+  taxt-align: center;
+padding: 0px;}

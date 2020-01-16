@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+.enhanced .nav .skip {
+   position: absolute;
+   right: 0;
+   top: 1.4em;
+   background: #363636;
+   border-radius: 50%;
+   width: 2.5em;
+   height: 2.5em;
+}
+.enhanced ul li {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.25s ease-out;
+}
+.enhanced .nav ul.open {
+   max-height: 20em;
+}
